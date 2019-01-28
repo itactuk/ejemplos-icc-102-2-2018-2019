@@ -19,6 +19,7 @@ meses={1:'enero', 2:'febrero' } # diccionarios
 
 
 print(matriculas[1])
+print(diccionario_espanol['espanol'])
 
 
 

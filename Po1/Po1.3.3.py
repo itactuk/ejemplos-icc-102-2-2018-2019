@@ -8,6 +8,7 @@
 print("20091665")
 #2.leer precio
 precio=input("digite precio: ")
+precio=int(precio)
 #3.calculamos el 10%
 diez_porciento = precio * 0.1
 #4. restamos el 10% al precio

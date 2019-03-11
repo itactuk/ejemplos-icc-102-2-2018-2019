@@ -22,3 +22,11 @@ def solucionar(expresion):
 
 res = solucionar("(1+2+(3+4+3+(1+2)))")
 print(res)
+
+#este ejemplo imprime los numeros desde n hasta 1
+def rec(i):
+    print(i)
+    i-=1
+    if i>0:
+        rec(i)
+rec(10)
